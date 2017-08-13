@@ -3,12 +3,12 @@ setStyleSheet(scollBarsStyle())
 
 prevBtn= new qPushButton(suraTab)
 {
-	setStyleSheet("qproperty-icon: url('img/arrow-left-01.png');background:rgba(255,255,255,255); border:1px solid #82896b;height:25px;")
+	setStyleSheet("qproperty-icon: url('img/arrow-left-01.png');background:#DADECD; border:1px solid #717563;height:25px;border-radius:2px;")
 	setClickEvent("nextFunc()")
 }
 nextBtn= new qPushButton(suraTab)
 {
-	setStyleSheet("qproperty-icon: url('img/arrow-right-01.png');background:rgba(255,255,255,255);border:1px solid #82896b;height:25px;")
+	setStyleSheet("qproperty-icon: url('img/arrow-right-01.png');background:#DADECD;border:1px solid #717563;height:25px;border-radius:2px;")
 	setClickEvent("prevFunc()")
 }
 
@@ -42,7 +42,7 @@ qtext= new QTextEdit(suraTab)
 	setfont(oFont)
 	setReadOnly(true)
 	setText(loadWerd(startPage))
-	setStyleSheet("background-image:url('img/islamic-star.png');background:#FFFFFF;color:#2b2817;")
+	//setStyleSheet("background-image:url('img/islamic-star.png');background:#FFFFFF;color:#2b2817;")
 
 	
 }
@@ -57,8 +57,8 @@ tafseetText= new QTextEdit(suraTab)
 
 
 topBtnsLayout = new qHBoxLayout() {
-	addwidget(prevBtn)
 	addwidget(nextBtn)
+	addwidget(prevBtn)
 }
 bottomBtnsLayout = new qHBoxLayout() {
 	addwidget(setBookmarkBtn)
@@ -77,8 +77,8 @@ suraTextLayout = new qVBoxLayout() {
 
 suraTabLayouts= new qVBoxLayout()
 {
-	addLayout(topBtnsLayout)
 	addLayout(suraTextLayout)
+	addLayout(topBtnsLayout)
 	addLayout(bottomBtnsLayout)
 }
 

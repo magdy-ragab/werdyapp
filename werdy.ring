@@ -77,9 +77,11 @@ lineHeight= getLineHeight()
 
 
 app1 = new qapp{
+
 	win1= new qwidget()
 	{
 		setContentsMargins(-15,-15,-15,-15)
+		setLayoutDirection(1)
 		setwindowtitle(_title+ " : الاصدار "+ _version)
 		setFixedWidth(400)
 		setFixedHeight(650)

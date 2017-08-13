@@ -1,15 +1,15 @@
-setStyleSheet(scollBarsStyle()+";background:rgba(255,255,255,0)")
+setStyleSheet("background:rgba(255,255,255,0)")
 setFixedHeight(400)
 
 
 PagesPerTime = new qLabel(settingsTab) {
-	settext("عدد الصفحات في المرة : ")
 	setStyleSheet("border:0px none;;")
+	settext("عدد الصفحات في المرة : ")
 }
 
 reade = new qLabel(settingsTab) {
-	settext("عدد الدقائق بين كل ورد:")
 	setStyleSheet("border:0px none;;")
+	settext("عدد الدقائق بين كل ورد:")
 }
 
 spinnr = new qspinbox(settingsTab) {
@@ -134,13 +134,13 @@ settingsSubmit= new qPushButton(settingsTab) {
 
 
 layout200 = new qHBoxLayout() {
-	addwidget(spinnr)
 	addwidget(PagesPerTime)
+	addwidget(spinnr)
 }
 
 layout201 = new qHBoxLayout() {
-	addwidget(spinner2)
 	addwidget(reade)
+	addwidget(spinner2)
 }
 
 layout204 = new qHBoxLayout() {
@@ -148,17 +148,17 @@ layout204 = new qHBoxLayout() {
 }
 
 layout206 = new qHBoxLayout() {
-	addWidget(clean_label)
 	addWidget(clean_check)
+	addWidget(clean_label)
 }
 
 fontSizeLayout = new qHBoxLayout() {
-	addWidget(fontSizeCombo)
 	addWidget(fontSizeLabel)
+	addWidget(fontSizeCombo)
 }
 lineHeightLayout = new qHBoxLayout() {
-	addWidget(lineHeightCombo)
 	addWidget(lineHeightLabel)
+	addWidget(lineHeightCombo)
 }
 
 layout207 = new qHBoxLayout() {
@@ -169,10 +169,10 @@ layout207 = new qHBoxLayout() {
 
 
 layoutreadTimeSettings = new qHBoxLayout() {
-	addWidget(readTimeCombo2)
 	addWidget(readTimeLabel2)
-	addWidget(readTimeCombo1)
+	addWidget(readTimeCombo2)
 	addWidget(readTimeLabel1)
+	addWidget(readTimeCombo1)
 }
 
 
