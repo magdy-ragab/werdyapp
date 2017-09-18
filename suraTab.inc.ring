@@ -53,12 +53,12 @@ trayBtn= new qPushButton(suraTab)
 
 qtext= new QTextEdit(suraTab) 
 {
-	oFont = new qfont("UthmanicHafs.ttf",0,0,0)
-	oFont.setRawName("UthmanicHafs")
-	setfont(oFont)
+	oFont2 = new qfont("",0,0,0)
+	oFont2.setRawName("UthmanicHafs.ttf")
+	setfont(oFont2)
 	setReadOnly(true)
 	setText(loadWerd(startPage))
-	setStyleSheet("font-family: UthmanicHafs")	
+	//setStyleSheet("font-family: UthmanicHafs")	
 }
 
 
