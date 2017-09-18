@@ -1,3 +1,13 @@
+/*
+**	Project : Werdy Application
+**	File Purpose : read or snooze?
+**	Date : 2017.09.9
+**	Author :  Magdy Ragab <developer.eye1@gmail.com>
+*/
+
+
+
+
 if werdWindStart=0
 	WrdWinApp = New qApp {
 		
@@ -8,7 +18,7 @@ if werdWindStart=0
 			//setwindowflags(qt_dialog & ~ qt_WindowMaximizeButtonHint & qt_SubWindow)
 			setwindowflags(Qt_CustomizeWindowHint | Qt_WindowTitleHint | Qt_WindowStaysOnTopHint | Qt_dialog) 
 			setwindowmodality(true)
-			setwindowtitle("وردي - الإصدار التجريبي 0.9")
+			setwindowtitle("وردي")
 			setwinicon(self,"images/icon.png")
 			setStyleSheet("background-image:url('images/islamic-star.png');font-family:Tahoma, Verdana, Segoe, sans-serif")
 			
@@ -59,24 +69,4 @@ if werdWindStart=0
 end
 
 
-func startReadWrd
-	see "start Read !"+nl
-	win1.showNormal()
-	pagea1=getCurrenpage()
-	pagea2=getCurrenpage()+pagesCount()
-	nextpage= pagea1+pagesCount()
-	if nextpage>604 nextpage=1 ok
-	loadWerd(nextpage)
-	//setPageData()
-	tab1.setCurrentIndex(0)
-	win1.activateWindow()
-	werdWindStart=0
-	winwrd.close()
 
-func SnoozeClose
-	tab1.setCurrentIndex(0)
-	win1.showNormal()
-	win1.activateWindow()
-	winwrd.close()
-	werdWindStart=0
-	hiddenMode()

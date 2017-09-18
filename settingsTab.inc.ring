@@ -1,4 +1,13 @@
-setStyleSheet("background:rgba(255,255,255,0)")
+/*
+**	Project : Werdy Application
+**	File Purpose : set/reset settings
+**	Date : 2017.09.9
+**	Author :  Magdy Ragab <developer.eye1@gmail.com>
+*/
+
+
+setContentsMargins(15,15,15,15)
+setStyleSheet("background:rgba(255,255,255,255)")
 setFixedHeight(400)
 
 
@@ -17,7 +26,7 @@ spinnr = new qspinbox(settingsTab) {
 	pagesRead=1*pagesRead
 	setvalue(pagesRead)
 	setrange(1, 100)
-	setFixedHeight(30)
+	/*setFixedHeight(30)*/
 	setStyleSheet("background:#FFFFFF;border:1px solid #4F4C3B")
 }
 
@@ -27,7 +36,7 @@ spinner2 = new qspinbox(settingsTab) {
 	setvalue(werdHour)
 	setrange(1, 500)
 	setSingleStep(15)
-	setFixedHeight(30)
+	/*setFixedHeight(30)*/
 	setStyleSheet("background:#FFFFFF;border:1px solid #4F4C3B")
 	
 }
@@ -39,7 +48,7 @@ fontSizeLabel=New QLabel(settingsTab) {
 
 fontSizeCombo=New QComboBox(settingsTab) {
 	
-	alist = ["2","3","4","5","6","7","8","9","10"]
+	alist = ["2","3","4","5","6","7","8","9","10", "11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30"]
 	for x in aList additem(x,0) next
 	setFixedHeight(30)
 	setCurrentIndex(fontSize-2)
@@ -74,7 +83,7 @@ readTimeCombo1= New qspinbox(settingsTab)
 	getStartTimeV=1*getStartTimeV
 	setvalue(getStartTimeV)
 	setrange(0, 23)
-	setFixedHeight(30)
+	/*setFixedHeight(30)*/
 	setStyleSheet("background:#FFFFFF;border:1px solid #4F4C3B")
 }
 
@@ -89,13 +98,13 @@ readTimeCombo2= New qspinbox(settingsTab)
 	getEndTimeV=1*getEndTimeV
 	setvalue(getEndTimeV)
 	setrange(1, 23)
-	setFixedHeight(30)
+	/*setFixedHeight(30)*/
 	setStyleSheet("background:#FFFFFF;border:1px solid #4F4C3B")
 }
 
 
 clean_check= new qcheckbox(settingsTab) {
-	setStyleSheet("border:0px none;height:30px;")
+	setStyleSheet("background: rgba(255,255,255,128);")
 	if clean_only_c='1'
 		setChecked(true)
 	ok
@@ -103,7 +112,8 @@ clean_check= new qcheckbox(settingsTab) {
 
 clean_label= new qlabel(settingsTab) {
 	settext("لاتعرض التشكيل")
-	setStyleSheet("border:0px none;")
+	setFixedWidth(350)
+	setFixedHeight(30)
 }
 
 setdefaultBtn  = new qPushButton(settingsTab) {
@@ -134,13 +144,13 @@ settingsSubmit= new qPushButton(settingsTab) {
 
 
 layout200 = new qHBoxLayout() {
-	addwidget(PagesPerTime)
 	addwidget(spinnr)
+	addwidget(PagesPerTime)
 }
 
 layout201 = new qHBoxLayout() {
-	addwidget(reade)
 	addwidget(spinner2)
+	addwidget(reade)
 }
 
 layout204 = new qHBoxLayout() {
@@ -148,17 +158,17 @@ layout204 = new qHBoxLayout() {
 }
 
 layout206 = new qHBoxLayout() {
-	addWidget(clean_check)
 	addWidget(clean_label)
+	addWidget(clean_check)
 }
 
 fontSizeLayout = new qHBoxLayout() {
-	addWidget(fontSizeLabel)
 	addWidget(fontSizeCombo)
+	addWidget(fontSizeLabel)
 }
 lineHeightLayout = new qHBoxLayout() {
-	addWidget(lineHeightLabel)
 	addWidget(lineHeightCombo)
+	addWidget(lineHeightLabel)
 }
 
 layout207 = new qHBoxLayout() {

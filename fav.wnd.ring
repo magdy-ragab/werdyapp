@@ -1,3 +1,10 @@
+/*
+**	Project : Werdy Application
+**	File Purpose : bookmarks window
+**	Date : 2017.09.9
+**	Author :  Magdy Ragab <developer.eye1@gmail.com>
+*/
+
 FavWin = New qApp {
 	
 	winaddfav = new qWidget() 

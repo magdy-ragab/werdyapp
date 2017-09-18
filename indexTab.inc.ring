@@ -1,7 +1,15 @@
+/*
+**	Project : Werdy Application
+**	File Purpose : index tab, all Sura names
+**	Date : 2017.09.9
+**	Author :  Magdy Ragab <developer.eye1@gmail.com>
+*/
+
 indexTable = new qTableWidget(indexTab) {
 	horizontalHeader().hide()
 	verticalHeader().hide()
 	horizontalHeader().setStretchLastSection(true)
+	verticalHeader().setStretchLastSection(true)
 	setrowcount(114)
 	setcolumncount(1)
 	setStyleSheet(scollBarsStyle())
@@ -33,8 +41,8 @@ indexTable = new qTableWidget(indexTab) {
 	next
 	write("staticIndex.ring", output)*/
 	load 'staticIndex.ring'
-	/*horizontalHeader().setStyleSheet("color: blue; font-weight:bold;height:300px")*/
-	verticalHeader().setDefaultSectionSize(50)
+	//horizontalHeader().setStyleSheet("color: blue; font-weight:bold;height:300px")
+	verticalHeader().setDefaultSectionSize(67)
 }
 layout3= new qHBoxLayout() {
 	addwidget(indexTable)

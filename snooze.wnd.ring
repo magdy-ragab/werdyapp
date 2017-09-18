@@ -1,3 +1,12 @@
+/*
+**	Project : Werdy Application
+**	File Purpose : snooze window
+**	Date : 2017.09.9
+**	Author :  Magdy Ragab <developer.eye1@gmail.com>
+*/
+
+
+
 FavWin = New qApp {
 	
 		snoozW = new qWidget() 

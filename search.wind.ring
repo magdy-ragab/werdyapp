@@ -1,3 +1,11 @@
+/*
+**	Project : Werdy Application
+**	File Purpose : search window
+**	Date : 2017.09.9
+**	Author :  Magdy Ragab <developer.eye1@gmail.com>
+*/
+
+
 searchWind = New qApp {
 
 	page4= new qwidget() {

@@ -1,3 +1,26 @@
+/*
+**	Project : Werdy Application
+**	File Purpose : this is the main file lunching the application
+**	Date : 2017.09.9
+**	Author :  Magdy Ragab <developer.eye1@gmail.com>
+*/
+
+
+
+
+/*
+ * tafsser
+ * tashkeel
+ * sura
+ * hezb
+ * joz
+ * aya
+ * ayat
+ * nap
+*/
+
+
+
 load "guilib.ring"
 
 _title= "وردي"
@@ -44,17 +67,17 @@ tableFav=''
 tableSearch=''
 searchtxtBoxNew=''
 downBtn=''
+tafseerCombo=''
 
 #index
 indextabLoaded=0
-
 toolbarOpened=0
 
 
 #font
-oFont = new qfont("",0,0,0)
-oFont.setRawName("UthmanicHafs.ttf")
-oFont.setPixelSize(20)
+oFont = new qfont("UthmanicHafs.ttf",0,0,0)
+oFont.setRawName("UthmanicHafs")
+//oFont.setPixelSize(25)
 
 load "func.ring"
 
@@ -87,7 +110,7 @@ app1 = new qapp{
 		setFixedHeight(650)
 		setStyleSheet("background-color:#FFFFFF;color:#222;background-image:url('img/islamic-star.png');")
 		
-		setwinicon(self,"img/icon.png")
+		setwinicon(self,"img/logo2.png")
 		new qtimer(win1)
 		{
 			setinterval(werdyTimers()*1000*60)
@@ -130,7 +153,11 @@ app1 = new qapp{
 		
 		
 		settingsTab= new qwidget(){
+			setLayoutDirection(0)
 			load 'settingsTab.inc.ring'
+		}
+		helpTab= new qwidget(){
+			load 'helpTab.inc.ring'
 		}
 		
 		
@@ -140,6 +167,7 @@ app1 = new qapp{
 			inserttab(0,suraTab      , "  "+  _title +" ")
 			inserttab(1,indexTab     , "  الفهرس ")
 			inserttab(3,settingsTab  , "  الاعدادات ")
+			inserttab(4,helpTab  , "  المساعدة  ")
 			setStyleSheet("
 				QTabWidget::pane {
 				border-top: 1px solid #ffffff;
@@ -152,7 +180,8 @@ app1 = new qapp{
 				border-width: 0;
 				border-style: none;
 				color:#ffffff;
-				min-width: 115px;
+				min-width: 81px;
+				font-family:tahoma;
 				padding: 5px 10px;
 				}
 				QTabBar::tab:selected, QTabBar::tab:hover {
@@ -181,6 +210,7 @@ app1 = new qapp{
 			eval('installeventfilter(myfilter'+suraIndexLoop+')')
 		next
 		
+		tafseerCombo.setcurrentIndexChangedEvent("updateTafseerBook()")
 		show()
 	}
 	exec()

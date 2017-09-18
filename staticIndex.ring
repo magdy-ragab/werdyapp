@@ -1,8 +1,16 @@
+/*
+**	Project : Werdy Application
+**	File Purpose : dispaly all index
+**	Date : 2017.09.9
+**	Author :  Magdy Ragab <developer.eye1@gmail.com>
+*/
+
+
 suraTextEditIndex_txt_1 = new QTextEdit(indexTab){
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الفاتحة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الفاتحة</h2></td>
 	<td rowspan=2 width=20 align=center>1. </td>
 <tr>
 	<td align=center> </td>
@@ -30,7 +38,7 @@ setCellWidget(0,0, suraTextEditIndex_txt_1)suraTextEditIndex_txt_2 = new QTextEd
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>البقرة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;;'>البقرة</h2></td>
 	<td rowspan=2 width=20 align=center>2. </td>
 <tr>
 	<td align=center> </td>
@@ -58,7 +66,7 @@ setCellWidget(1,0, suraTextEditIndex_txt_2)suraTextEditIndex_txt_3 = new QTextEd
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>آل عمران</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>آل عمران</h2></td>
 	<td rowspan=2 width=20 align=center>3. </td>
 <tr>
 	<td align=center> </td>
@@ -86,7 +94,7 @@ setCellWidget(2,0, suraTextEditIndex_txt_3)suraTextEditIndex_txt_4 = new QTextEd
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>النساء</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>النساء</h2></td>
 	<td rowspan=2 width=20 align=center>4. </td>
 <tr>
 	<td align=center> </td>
@@ -114,7 +122,7 @@ setCellWidget(3,0, suraTextEditIndex_txt_4)suraTextEditIndex_txt_5 = new QTextEd
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>المائدة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>المائدة</h2></td>
 	<td rowspan=2 width=20 align=center>5. </td>
 <tr>
 	<td align=center> </td>
@@ -142,7 +150,7 @@ setCellWidget(4,0, suraTextEditIndex_txt_5)suraTextEditIndex_txt_6 = new QTextEd
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻷنعام</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻷنعام</h2></td>
 	<td rowspan=2 width=20 align=center>6. </td>
 <tr>
 	<td align=center> </td>
@@ -170,7 +178,7 @@ setCellWidget(5,0, suraTextEditIndex_txt_6)suraTextEditIndex_txt_7 = new QTextEd
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻷعراف</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻷعراف</h2></td>
 	<td rowspan=2 width=20 align=center>7. </td>
 <tr>
 	<td align=center> </td>
@@ -198,7 +206,7 @@ setCellWidget(6,0, suraTextEditIndex_txt_7)suraTextEditIndex_txt_8 = new QTextEd
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻷنفال</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻷنفال</h2></td>
 	<td rowspan=2 width=20 align=center>8. </td>
 <tr>
 	<td align=center> </td>
@@ -226,7 +234,7 @@ setCellWidget(7,0, suraTextEditIndex_txt_8)suraTextEditIndex_txt_9 = new QTextEd
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>التوبة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>التوبة</h2></td>
 	<td rowspan=2 width=20 align=center>9. </td>
 <tr>
 	<td align=center> </td>
@@ -254,7 +262,7 @@ setCellWidget(8,0, suraTextEditIndex_txt_9)suraTextEditIndex_txt_10 = new QTextE
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>يونس</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>يونس</h2></td>
 	<td rowspan=2 width=20 align=center>10. </td>
 <tr>
 	<td align=center> </td>
@@ -282,7 +290,7 @@ setCellWidget(9,0, suraTextEditIndex_txt_10)suraTextEditIndex_txt_11 = new QText
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>هود</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>هود</h2></td>
 	<td rowspan=2 width=20 align=center>11. </td>
 <tr>
 	<td align=center> </td>
@@ -310,7 +318,7 @@ setCellWidget(10,0, suraTextEditIndex_txt_11)suraTextEditIndex_txt_12 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>يوسف</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>يوسف</h2></td>
 	<td rowspan=2 width=20 align=center>12. </td>
 <tr>
 	<td align=center> </td>
@@ -338,7 +346,7 @@ setCellWidget(11,0, suraTextEditIndex_txt_12)suraTextEditIndex_txt_13 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الرعد</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الرعد</h2></td>
 	<td rowspan=2 width=20 align=center>13. </td>
 <tr>
 	<td align=center> </td>
@@ -366,7 +374,7 @@ setCellWidget(12,0, suraTextEditIndex_txt_13)suraTextEditIndex_txt_14 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>إبراهيم</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>إبراهيم</h2></td>
 	<td rowspan=2 width=20 align=center>14. </td>
 <tr>
 	<td align=center> </td>
@@ -394,7 +402,7 @@ setCellWidget(13,0, suraTextEditIndex_txt_14)suraTextEditIndex_txt_15 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الحجر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الحجر</h2></td>
 	<td rowspan=2 width=20 align=center>15. </td>
 <tr>
 	<td align=center> </td>
@@ -422,7 +430,7 @@ setCellWidget(14,0, suraTextEditIndex_txt_15)suraTextEditIndex_txt_16 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>النحل</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>النحل</h2></td>
 	<td rowspan=2 width=20 align=center>16. </td>
 <tr>
 	<td align=center> </td>
@@ -450,7 +458,7 @@ setCellWidget(15,0, suraTextEditIndex_txt_16)suraTextEditIndex_txt_17 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻹسراء</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻹسراء</h2></td>
 	<td rowspan=2 width=20 align=center>17. </td>
 <tr>
 	<td align=center> </td>
@@ -478,7 +486,7 @@ setCellWidget(16,0, suraTextEditIndex_txt_17)suraTextEditIndex_txt_18 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الكهف</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الكهف</h2></td>
 	<td rowspan=2 width=20 align=center>18. </td>
 <tr>
 	<td align=center> </td>
@@ -506,7 +514,7 @@ setCellWidget(17,0, suraTextEditIndex_txt_18)suraTextEditIndex_txt_19 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>مريم</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>مريم</h2></td>
 	<td rowspan=2 width=20 align=center>19. </td>
 <tr>
 	<td align=center> </td>
@@ -534,7 +542,7 @@ setCellWidget(18,0, suraTextEditIndex_txt_19)suraTextEditIndex_txt_20 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>طه</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>طه</h2></td>
 	<td rowspan=2 width=20 align=center>20. </td>
 <tr>
 	<td align=center> </td>
@@ -562,7 +570,7 @@ setCellWidget(19,0, suraTextEditIndex_txt_20)suraTextEditIndex_txt_21 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻷنبياء</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻷنبياء</h2></td>
 	<td rowspan=2 width=20 align=center>21. </td>
 <tr>
 	<td align=center> </td>
@@ -590,7 +598,7 @@ setCellWidget(20,0, suraTextEditIndex_txt_21)suraTextEditIndex_txt_22 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الحج</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الحج</h2></td>
 	<td rowspan=2 width=20 align=center>22. </td>
 <tr>
 	<td align=center> </td>
@@ -618,7 +626,7 @@ setCellWidget(21,0, suraTextEditIndex_txt_22)suraTextEditIndex_txt_23 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>المؤمنون</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>المؤمنون</h2></td>
 	<td rowspan=2 width=20 align=center>23. </td>
 <tr>
 	<td align=center> </td>
@@ -646,7 +654,7 @@ setCellWidget(22,0, suraTextEditIndex_txt_23)suraTextEditIndex_txt_24 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>النور</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>النور</h2></td>
 	<td rowspan=2 width=20 align=center>24. </td>
 <tr>
 	<td align=center> </td>
@@ -674,7 +682,7 @@ setCellWidget(23,0, suraTextEditIndex_txt_24)suraTextEditIndex_txt_25 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الفرقان</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الفرقان</h2></td>
 	<td rowspan=2 width=20 align=center>25. </td>
 <tr>
 	<td align=center> </td>
@@ -702,7 +710,7 @@ setCellWidget(24,0, suraTextEditIndex_txt_25)suraTextEditIndex_txt_26 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الشعراء</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الشعراء</h2></td>
 	<td rowspan=2 width=20 align=center>26. </td>
 <tr>
 	<td align=center> </td>
@@ -730,7 +738,7 @@ setCellWidget(25,0, suraTextEditIndex_txt_26)suraTextEditIndex_txt_27 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>النمل</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>النمل</h2></td>
 	<td rowspan=2 width=20 align=center>27. </td>
 <tr>
 	<td align=center> </td>
@@ -758,7 +766,7 @@ setCellWidget(26,0, suraTextEditIndex_txt_27)suraTextEditIndex_txt_28 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>القصص</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>القصص</h2></td>
 	<td rowspan=2 width=20 align=center>28. </td>
 <tr>
 	<td align=center> </td>
@@ -786,7 +794,7 @@ setCellWidget(27,0, suraTextEditIndex_txt_28)suraTextEditIndex_txt_29 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>العنكبوت</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>العنكبوت</h2></td>
 	<td rowspan=2 width=20 align=center>29. </td>
 <tr>
 	<td align=center> </td>
@@ -814,7 +822,7 @@ setCellWidget(28,0, suraTextEditIndex_txt_29)suraTextEditIndex_txt_30 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الروم</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الروم</h2></td>
 	<td rowspan=2 width=20 align=center>30. </td>
 <tr>
 	<td align=center> </td>
@@ -842,7 +850,7 @@ setCellWidget(29,0, suraTextEditIndex_txt_30)suraTextEditIndex_txt_31 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>لقمان</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>لقمان</h2></td>
 	<td rowspan=2 width=20 align=center>31. </td>
 <tr>
 	<td align=center> </td>
@@ -870,7 +878,7 @@ setCellWidget(30,0, suraTextEditIndex_txt_31)suraTextEditIndex_txt_32 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>السجدة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>السجدة</h2></td>
 	<td rowspan=2 width=20 align=center>32. </td>
 <tr>
 	<td align=center> </td>
@@ -898,7 +906,7 @@ setCellWidget(31,0, suraTextEditIndex_txt_32)suraTextEditIndex_txt_33 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻷحزاب</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻷحزاب</h2></td>
 	<td rowspan=2 width=20 align=center>33. </td>
 <tr>
 	<td align=center> </td>
@@ -926,7 +934,7 @@ setCellWidget(32,0, suraTextEditIndex_txt_33)suraTextEditIndex_txt_34 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>سبأ</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>سبأ</h2></td>
 	<td rowspan=2 width=20 align=center>34. </td>
 <tr>
 	<td align=center> </td>
@@ -954,7 +962,7 @@ setCellWidget(33,0, suraTextEditIndex_txt_34)suraTextEditIndex_txt_35 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>فاطر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>فاطر</h2></td>
 	<td rowspan=2 width=20 align=center>35. </td>
 <tr>
 	<td align=center> </td>
@@ -982,7 +990,7 @@ setCellWidget(34,0, suraTextEditIndex_txt_35)suraTextEditIndex_txt_36 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>يس</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>يس</h2></td>
 	<td rowspan=2 width=20 align=center>36. </td>
 <tr>
 	<td align=center> </td>
@@ -1010,7 +1018,7 @@ setCellWidget(35,0, suraTextEditIndex_txt_36)suraTextEditIndex_txt_37 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الصافات</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الصافات</h2></td>
 	<td rowspan=2 width=20 align=center>37. </td>
 <tr>
 	<td align=center> </td>
@@ -1038,7 +1046,7 @@ setCellWidget(36,0, suraTextEditIndex_txt_37)suraTextEditIndex_txt_38 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>ص</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>ص</h2></td>
 	<td rowspan=2 width=20 align=center>38. </td>
 <tr>
 	<td align=center> </td>
@@ -1066,7 +1074,7 @@ setCellWidget(37,0, suraTextEditIndex_txt_38)suraTextEditIndex_txt_39 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الزمر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الزمر</h2></td>
 	<td rowspan=2 width=20 align=center>39. </td>
 <tr>
 	<td align=center> </td>
@@ -1094,7 +1102,7 @@ setCellWidget(38,0, suraTextEditIndex_txt_39)suraTextEditIndex_txt_40 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>غافر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>غافر</h2></td>
 	<td rowspan=2 width=20 align=center>40. </td>
 <tr>
 	<td align=center> </td>
@@ -1122,7 +1130,7 @@ setCellWidget(39,0, suraTextEditIndex_txt_40)suraTextEditIndex_txt_41 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>فصلت</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>فصلت</h2></td>
 	<td rowspan=2 width=20 align=center>41. </td>
 <tr>
 	<td align=center> </td>
@@ -1150,7 +1158,7 @@ setCellWidget(40,0, suraTextEditIndex_txt_41)suraTextEditIndex_txt_42 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الشورى</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الشورى</h2></td>
 	<td rowspan=2 width=20 align=center>42. </td>
 <tr>
 	<td align=center> </td>
@@ -1178,7 +1186,7 @@ setCellWidget(41,0, suraTextEditIndex_txt_42)suraTextEditIndex_txt_43 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الزخرف</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الزخرف</h2></td>
 	<td rowspan=2 width=20 align=center>43. </td>
 <tr>
 	<td align=center> </td>
@@ -1206,7 +1214,7 @@ setCellWidget(42,0, suraTextEditIndex_txt_43)suraTextEditIndex_txt_44 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الدخان</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الدخان</h2></td>
 	<td rowspan=2 width=20 align=center>44. </td>
 <tr>
 	<td align=center> </td>
@@ -1234,7 +1242,7 @@ setCellWidget(43,0, suraTextEditIndex_txt_44)suraTextEditIndex_txt_45 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الجاثية</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الجاثية</h2></td>
 	<td rowspan=2 width=20 align=center>45. </td>
 <tr>
 	<td align=center> </td>
@@ -1262,7 +1270,7 @@ setCellWidget(44,0, suraTextEditIndex_txt_45)suraTextEditIndex_txt_46 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻷحقاف</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻷحقاف</h2></td>
 	<td rowspan=2 width=20 align=center>46. </td>
 <tr>
 	<td align=center> </td>
@@ -1290,7 +1298,7 @@ setCellWidget(45,0, suraTextEditIndex_txt_46)suraTextEditIndex_txt_47 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>محمد</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>محمد</h2></td>
 	<td rowspan=2 width=20 align=center>47. </td>
 <tr>
 	<td align=center> </td>
@@ -1318,7 +1326,7 @@ setCellWidget(46,0, suraTextEditIndex_txt_47)suraTextEditIndex_txt_48 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الفتح</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الفتح</h2></td>
 	<td rowspan=2 width=20 align=center>48. </td>
 <tr>
 	<td align=center> </td>
@@ -1346,7 +1354,7 @@ setCellWidget(47,0, suraTextEditIndex_txt_48)suraTextEditIndex_txt_49 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الحجرات</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الحجرات</h2></td>
 	<td rowspan=2 width=20 align=center>49. </td>
 <tr>
 	<td align=center> </td>
@@ -1374,7 +1382,7 @@ setCellWidget(48,0, suraTextEditIndex_txt_49)suraTextEditIndex_txt_50 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>ق</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>ق</h2></td>
 	<td rowspan=2 width=20 align=center>50. </td>
 <tr>
 	<td align=center> </td>
@@ -1402,7 +1410,7 @@ setCellWidget(49,0, suraTextEditIndex_txt_50)suraTextEditIndex_txt_51 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الذاريات</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الذاريات</h2></td>
 	<td rowspan=2 width=20 align=center>51. </td>
 <tr>
 	<td align=center> </td>
@@ -1430,7 +1438,7 @@ setCellWidget(50,0, suraTextEditIndex_txt_51)suraTextEditIndex_txt_52 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الطور</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الطور</h2></td>
 	<td rowspan=2 width=20 align=center>52. </td>
 <tr>
 	<td align=center> </td>
@@ -1458,7 +1466,7 @@ setCellWidget(51,0, suraTextEditIndex_txt_52)suraTextEditIndex_txt_53 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>النجم</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>النجم</h2></td>
 	<td rowspan=2 width=20 align=center>53. </td>
 <tr>
 	<td align=center> </td>
@@ -1486,7 +1494,7 @@ setCellWidget(52,0, suraTextEditIndex_txt_53)suraTextEditIndex_txt_54 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>القمر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>القمر</h2></td>
 	<td rowspan=2 width=20 align=center>54. </td>
 <tr>
 	<td align=center> </td>
@@ -1514,7 +1522,7 @@ setCellWidget(53,0, suraTextEditIndex_txt_54)suraTextEditIndex_txt_55 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الرحمن</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الرحمن</h2></td>
 	<td rowspan=2 width=20 align=center>55. </td>
 <tr>
 	<td align=center> </td>
@@ -1542,7 +1550,7 @@ setCellWidget(54,0, suraTextEditIndex_txt_55)suraTextEditIndex_txt_56 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الواقعة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الواقعة</h2></td>
 	<td rowspan=2 width=20 align=center>56. </td>
 <tr>
 	<td align=center> </td>
@@ -1570,7 +1578,7 @@ setCellWidget(55,0, suraTextEditIndex_txt_56)suraTextEditIndex_txt_57 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الحديد</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الحديد</h2></td>
 	<td rowspan=2 width=20 align=center>57. </td>
 <tr>
 	<td align=center> </td>
@@ -1598,7 +1606,7 @@ setCellWidget(56,0, suraTextEditIndex_txt_57)suraTextEditIndex_txt_58 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>المجادلة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>المجادلة</h2></td>
 	<td rowspan=2 width=20 align=center>58. </td>
 <tr>
 	<td align=center> </td>
@@ -1626,7 +1634,7 @@ setCellWidget(57,0, suraTextEditIndex_txt_58)suraTextEditIndex_txt_59 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الحشر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الحشر</h2></td>
 	<td rowspan=2 width=20 align=center>59. </td>
 <tr>
 	<td align=center> </td>
@@ -1654,7 +1662,7 @@ setCellWidget(58,0, suraTextEditIndex_txt_59)suraTextEditIndex_txt_60 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الممتحنة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الممتحنة</h2></td>
 	<td rowspan=2 width=20 align=center>60. </td>
 <tr>
 	<td align=center> </td>
@@ -1682,7 +1690,7 @@ setCellWidget(59,0, suraTextEditIndex_txt_60)suraTextEditIndex_txt_61 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الصف</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الصف</h2></td>
 	<td rowspan=2 width=20 align=center>61. </td>
 <tr>
 	<td align=center> </td>
@@ -1710,7 +1718,7 @@ setCellWidget(60,0, suraTextEditIndex_txt_61)suraTextEditIndex_txt_62 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الجمعة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الجمعة</h2></td>
 	<td rowspan=2 width=20 align=center>62. </td>
 <tr>
 	<td align=center> </td>
@@ -1738,7 +1746,7 @@ setCellWidget(61,0, suraTextEditIndex_txt_62)suraTextEditIndex_txt_63 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>المنافقون</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>المنافقون</h2></td>
 	<td rowspan=2 width=20 align=center>63. </td>
 <tr>
 	<td align=center> </td>
@@ -1766,7 +1774,7 @@ setCellWidget(62,0, suraTextEditIndex_txt_63)suraTextEditIndex_txt_64 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>التغابن</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>التغابن</h2></td>
 	<td rowspan=2 width=20 align=center>64. </td>
 <tr>
 	<td align=center> </td>
@@ -1794,7 +1802,7 @@ setCellWidget(63,0, suraTextEditIndex_txt_64)suraTextEditIndex_txt_65 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الطلاق</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الطلاق</h2></td>
 	<td rowspan=2 width=20 align=center>65. </td>
 <tr>
 	<td align=center> </td>
@@ -1822,7 +1830,7 @@ setCellWidget(64,0, suraTextEditIndex_txt_65)suraTextEditIndex_txt_66 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>التحريم</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>التحريم</h2></td>
 	<td rowspan=2 width=20 align=center>66. </td>
 <tr>
 	<td align=center> </td>
@@ -1850,7 +1858,7 @@ setCellWidget(65,0, suraTextEditIndex_txt_66)suraTextEditIndex_txt_67 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الملك</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الملك</h2></td>
 	<td rowspan=2 width=20 align=center>67. </td>
 <tr>
 	<td align=center> </td>
@@ -1878,7 +1886,7 @@ setCellWidget(66,0, suraTextEditIndex_txt_67)suraTextEditIndex_txt_68 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>القلم</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>القلم</h2></td>
 	<td rowspan=2 width=20 align=center>68. </td>
 <tr>
 	<td align=center> </td>
@@ -1906,7 +1914,7 @@ setCellWidget(67,0, suraTextEditIndex_txt_68)suraTextEditIndex_txt_69 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الحاقة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الحاقة</h2></td>
 	<td rowspan=2 width=20 align=center>69. </td>
 <tr>
 	<td align=center> </td>
@@ -1934,7 +1942,7 @@ setCellWidget(68,0, suraTextEditIndex_txt_69)suraTextEditIndex_txt_70 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>المعارج</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>المعارج</h2></td>
 	<td rowspan=2 width=20 align=center>70. </td>
 <tr>
 	<td align=center> </td>
@@ -1962,7 +1970,7 @@ setCellWidget(69,0, suraTextEditIndex_txt_70)suraTextEditIndex_txt_71 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>نوح</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>نوح</h2></td>
 	<td rowspan=2 width=20 align=center>71. </td>
 <tr>
 	<td align=center> </td>
@@ -1990,7 +1998,7 @@ setCellWidget(70,0, suraTextEditIndex_txt_71)suraTextEditIndex_txt_72 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الجن</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الجن</h2></td>
 	<td rowspan=2 width=20 align=center>72. </td>
 <tr>
 	<td align=center> </td>
@@ -2018,7 +2026,7 @@ setCellWidget(71,0, suraTextEditIndex_txt_72)suraTextEditIndex_txt_73 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>المزمل</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>المزمل</h2></td>
 	<td rowspan=2 width=20 align=center>73. </td>
 <tr>
 	<td align=center> </td>
@@ -2046,7 +2054,7 @@ setCellWidget(72,0, suraTextEditIndex_txt_73)suraTextEditIndex_txt_74 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>المدثر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>المدثر</h2></td>
 	<td rowspan=2 width=20 align=center>74. </td>
 <tr>
 	<td align=center> </td>
@@ -2074,7 +2082,7 @@ setCellWidget(73,0, suraTextEditIndex_txt_74)suraTextEditIndex_txt_75 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>القيامة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>القيامة</h2></td>
 	<td rowspan=2 width=20 align=center>75. </td>
 <tr>
 	<td align=center> </td>
@@ -2102,7 +2110,7 @@ setCellWidget(74,0, suraTextEditIndex_txt_75)suraTextEditIndex_txt_76 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻹنسان</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻹنسان</h2></td>
 	<td rowspan=2 width=20 align=center>76. </td>
 <tr>
 	<td align=center> </td>
@@ -2130,7 +2138,7 @@ setCellWidget(75,0, suraTextEditIndex_txt_76)suraTextEditIndex_txt_77 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>المرسلات</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>المرسلات</h2></td>
 	<td rowspan=2 width=20 align=center>77. </td>
 <tr>
 	<td align=center> </td>
@@ -2158,7 +2166,7 @@ setCellWidget(76,0, suraTextEditIndex_txt_77)suraTextEditIndex_txt_78 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>النبأ</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>النبأ</h2></td>
 	<td rowspan=2 width=20 align=center>78. </td>
 <tr>
 	<td align=center> </td>
@@ -2186,7 +2194,7 @@ setCellWidget(77,0, suraTextEditIndex_txt_78)suraTextEditIndex_txt_79 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>النازعات</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>النازعات</h2></td>
 	<td rowspan=2 width=20 align=center>79. </td>
 <tr>
 	<td align=center> </td>
@@ -2214,7 +2222,7 @@ setCellWidget(78,0, suraTextEditIndex_txt_79)suraTextEditIndex_txt_80 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>عبس</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>عبس</h2></td>
 	<td rowspan=2 width=20 align=center>80. </td>
 <tr>
 	<td align=center> </td>
@@ -2242,7 +2250,7 @@ setCellWidget(79,0, suraTextEditIndex_txt_80)suraTextEditIndex_txt_81 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>التكوير</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>التكوير</h2></td>
 	<td rowspan=2 width=20 align=center>81. </td>
 <tr>
 	<td align=center> </td>
@@ -2270,7 +2278,7 @@ setCellWidget(80,0, suraTextEditIndex_txt_81)suraTextEditIndex_txt_82 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻹنفطار</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻹنفطار</h2></td>
 	<td rowspan=2 width=20 align=center>82. </td>
 <tr>
 	<td align=center> </td>
@@ -2298,7 +2306,7 @@ setCellWidget(81,0, suraTextEditIndex_txt_82)suraTextEditIndex_txt_83 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>المطففين</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>المطففين</h2></td>
 	<td rowspan=2 width=20 align=center>83. </td>
 <tr>
 	<td align=center> </td>
@@ -2326,7 +2334,7 @@ setCellWidget(82,0, suraTextEditIndex_txt_83)suraTextEditIndex_txt_84 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻹنشقاق</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻹنشقاق</h2></td>
 	<td rowspan=2 width=20 align=center>84. </td>
 <tr>
 	<td align=center> </td>
@@ -2354,7 +2362,7 @@ setCellWidget(83,0, suraTextEditIndex_txt_84)suraTextEditIndex_txt_85 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>البروج</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>البروج</h2></td>
 	<td rowspan=2 width=20 align=center>85. </td>
 <tr>
 	<td align=center> </td>
@@ -2382,7 +2390,7 @@ setCellWidget(84,0, suraTextEditIndex_txt_85)suraTextEditIndex_txt_86 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الطارق</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الطارق</h2></td>
 	<td rowspan=2 width=20 align=center>86. </td>
 <tr>
 	<td align=center> </td>
@@ -2410,7 +2418,7 @@ setCellWidget(85,0, suraTextEditIndex_txt_86)suraTextEditIndex_txt_87 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻷعلى</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻷعلى</h2></td>
 	<td rowspan=2 width=20 align=center>87. </td>
 <tr>
 	<td align=center> </td>
@@ -2438,7 +2446,7 @@ setCellWidget(86,0, suraTextEditIndex_txt_87)suraTextEditIndex_txt_88 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الغاشية</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الغاشية</h2></td>
 	<td rowspan=2 width=20 align=center>88. </td>
 <tr>
 	<td align=center> </td>
@@ -2466,7 +2474,7 @@ setCellWidget(87,0, suraTextEditIndex_txt_88)suraTextEditIndex_txt_89 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الفجر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الفجر</h2></td>
 	<td rowspan=2 width=20 align=center>89. </td>
 <tr>
 	<td align=center> </td>
@@ -2494,7 +2502,7 @@ setCellWidget(88,0, suraTextEditIndex_txt_89)suraTextEditIndex_txt_90 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>البلد</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>البلد</h2></td>
 	<td rowspan=2 width=20 align=center>90. </td>
 <tr>
 	<td align=center> </td>
@@ -2522,7 +2530,7 @@ setCellWidget(89,0, suraTextEditIndex_txt_90)suraTextEditIndex_txt_91 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الشمس</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الشمس</h2></td>
 	<td rowspan=2 width=20 align=center>91. </td>
 <tr>
 	<td align=center> </td>
@@ -2550,7 +2558,7 @@ setCellWidget(90,0, suraTextEditIndex_txt_91)suraTextEditIndex_txt_92 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الليل</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الليل</h2></td>
 	<td rowspan=2 width=20 align=center>92. </td>
 <tr>
 	<td align=center> </td>
@@ -2578,7 +2586,7 @@ setCellWidget(91,0, suraTextEditIndex_txt_92)suraTextEditIndex_txt_93 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الضحى</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الضحى</h2></td>
 	<td rowspan=2 width=20 align=center>93. </td>
 <tr>
 	<td align=center> </td>
@@ -2606,7 +2614,7 @@ setCellWidget(92,0, suraTextEditIndex_txt_93)suraTextEditIndex_txt_94 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الشرح</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الشرح</h2></td>
 	<td rowspan=2 width=20 align=center>94. </td>
 <tr>
 	<td align=center> </td>
@@ -2634,7 +2642,7 @@ setCellWidget(93,0, suraTextEditIndex_txt_94)suraTextEditIndex_txt_95 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>التين</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>التين</h2></td>
 	<td rowspan=2 width=20 align=center>95. </td>
 <tr>
 	<td align=center> </td>
@@ -2662,7 +2670,7 @@ setCellWidget(94,0, suraTextEditIndex_txt_95)suraTextEditIndex_txt_96 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>العلق</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>العلق</h2></td>
 	<td rowspan=2 width=20 align=center>96. </td>
 <tr>
 	<td align=center> </td>
@@ -2690,7 +2698,7 @@ setCellWidget(95,0, suraTextEditIndex_txt_96)suraTextEditIndex_txt_97 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>القدر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>القدر</h2></td>
 	<td rowspan=2 width=20 align=center>97. </td>
 <tr>
 	<td align=center> </td>
@@ -2718,7 +2726,7 @@ setCellWidget(96,0, suraTextEditIndex_txt_97)suraTextEditIndex_txt_98 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>البينة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>البينة</h2></td>
 	<td rowspan=2 width=20 align=center>98. </td>
 <tr>
 	<td align=center> </td>
@@ -2746,7 +2754,7 @@ setCellWidget(97,0, suraTextEditIndex_txt_98)suraTextEditIndex_txt_99 = new QTex
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الزلزلة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الزلزلة</h2></td>
 	<td rowspan=2 width=20 align=center>99. </td>
 <tr>
 	<td align=center> </td>
@@ -2774,7 +2782,7 @@ setCellWidget(98,0, suraTextEditIndex_txt_99)suraTextEditIndex_txt_100 = new QTe
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>العاديات</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>العاديات</h2></td>
 	<td rowspan=2 width=20 align=center>100. </td>
 <tr>
 	<td align=center> </td>
@@ -2802,7 +2810,7 @@ setCellWidget(99,0, suraTextEditIndex_txt_100)suraTextEditIndex_txt_101 = new QT
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>القارعة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>القارعة</h2></td>
 	<td rowspan=2 width=20 align=center>101. </td>
 <tr>
 	<td align=center> </td>
@@ -2830,7 +2838,7 @@ setCellWidget(100,0, suraTextEditIndex_txt_101)suraTextEditIndex_txt_102 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>التكاثر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>التكاثر</h2></td>
 	<td rowspan=2 width=20 align=center>102. </td>
 <tr>
 	<td align=center> </td>
@@ -2858,7 +2866,7 @@ setCellWidget(101,0, suraTextEditIndex_txt_102)suraTextEditIndex_txt_103 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>العصر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>العصر</h2></td>
 	<td rowspan=2 width=20 align=center>103. </td>
 <tr>
 	<td align=center> </td>
@@ -2886,7 +2894,7 @@ setCellWidget(102,0, suraTextEditIndex_txt_103)suraTextEditIndex_txt_104 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الهمزة</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الهمزة</h2></td>
 	<td rowspan=2 width=20 align=center>104. </td>
 <tr>
 	<td align=center> </td>
@@ -2914,7 +2922,7 @@ setCellWidget(103,0, suraTextEditIndex_txt_104)suraTextEditIndex_txt_105 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الفيل</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الفيل</h2></td>
 	<td rowspan=2 width=20 align=center>105. </td>
 <tr>
 	<td align=center> </td>
@@ -2942,7 +2950,7 @@ setCellWidget(104,0, suraTextEditIndex_txt_105)suraTextEditIndex_txt_106 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>قريش</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>قريش</h2></td>
 	<td rowspan=2 width=20 align=center>106. </td>
 <tr>
 	<td align=center> </td>
@@ -2970,7 +2978,7 @@ setCellWidget(105,0, suraTextEditIndex_txt_106)suraTextEditIndex_txt_107 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الماعون</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الماعون</h2></td>
 	<td rowspan=2 width=20 align=center>107. </td>
 <tr>
 	<td align=center> </td>
@@ -2998,7 +3006,7 @@ setCellWidget(106,0, suraTextEditIndex_txt_107)suraTextEditIndex_txt_108 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الكوثر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الكوثر</h2></td>
 	<td rowspan=2 width=20 align=center>108. </td>
 <tr>
 	<td align=center> </td>
@@ -3026,7 +3034,7 @@ setCellWidget(107,0, suraTextEditIndex_txt_108)suraTextEditIndex_txt_109 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الكافرون</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الكافرون</h2></td>
 	<td rowspan=2 width=20 align=center>109. </td>
 <tr>
 	<td align=center> </td>
@@ -3054,7 +3062,7 @@ setCellWidget(108,0, suraTextEditIndex_txt_109)suraTextEditIndex_txt_110 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>النصر</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>النصر</h2></td>
 	<td rowspan=2 width=20 align=center>110. </td>
 <tr>
 	<td align=center> </td>
@@ -3082,7 +3090,7 @@ setCellWidget(109,0, suraTextEditIndex_txt_110)suraTextEditIndex_txt_111 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>المسد</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>المسد</h2></td>
 	<td rowspan=2 width=20 align=center>111. </td>
 <tr>
 	<td align=center> </td>
@@ -3110,7 +3118,7 @@ setCellWidget(110,0, suraTextEditIndex_txt_111)suraTextEditIndex_txt_112 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>اﻹخلاص</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>اﻹخلاص</h2></td>
 	<td rowspan=2 width=20 align=center>112. </td>
 <tr>
 	<td align=center> </td>
@@ -3138,7 +3146,7 @@ setCellWidget(111,0, suraTextEditIndex_txt_112)suraTextEditIndex_txt_113 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الفلق</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الفلق</h2></td>
 	<td rowspan=2 width=20 align=center>113. </td>
 <tr>
 	<td align=center> </td>
@@ -3166,7 +3174,7 @@ setCellWidget(112,0, suraTextEditIndex_txt_113)suraTextEditIndex_txt_114 = new Q
 	sethtml("<table border=0 dir=rtl width=100% cellpadding=0 cellspacing=0>
 <tr>
 	<td width=20 align=center> </td>
-	<td rowspan=2><h2 style='color:#4F4C3B'>الناس</h2></td>
+	<td rowspan=2><h2 style='color:#4F4C3B;font-size:12px;padding:0px; margin:0px;'>الناس</h2></td>
 	<td rowspan=2 width=20 align=center>114. </td>
 <tr>
 	<td align=center> </td>
